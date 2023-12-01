@@ -16,7 +16,11 @@
     </header>
     <main>
       <section class="left">
-        <input type="number" class="number-input" />
+        <input
+          type="number"
+          class="number-input"
+          oninput="checkInputValue(this)"
+        />
         <button class="btn check">Проверить!</button>
       </section>
       <section class="right">
